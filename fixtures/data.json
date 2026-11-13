@@ -1,0 +1,1776 @@
+{
+  "authors": [
+    {
+      "author_id": "author_00",
+      "display_name": "研究员00"
+    },
+    {
+      "author_id": "author_01",
+      "display_name": "研究员01"
+    },
+    {
+      "author_id": "author_02",
+      "display_name": "研究员02"
+    },
+    {
+      "author_id": "author_03",
+      "display_name": "研究员03"
+    },
+    {
+      "author_id": "author_04",
+      "display_name": "研究员04"
+    },
+    {
+      "author_id": "author_05",
+      "display_name": "研究员05"
+    },
+    {
+      "author_id": "author_06",
+      "display_name": "研究员06"
+    },
+    {
+      "author_id": "author_07",
+      "display_name": "研究员07"
+    },
+    {
+      "author_id": "author_08",
+      "display_name": "研究员08"
+    },
+    {
+      "author_id": "author_09",
+      "display_name": "研究员09"
+    },
+    {
+      "author_id": "author_10",
+      "display_name": "研究员10"
+    },
+    {
+      "author_id": "author_11",
+      "display_name": "研究员11"
+    },
+    {
+      "author_id": "author_12",
+      "display_name": "研究员12"
+    },
+    {
+      "author_id": "author_13",
+      "display_name": "研究员13"
+    },
+    {
+      "author_id": "author_14",
+      "display_name": "研究员14"
+    },
+    {
+      "author_id": "author_15",
+      "display_name": "研究员15"
+    },
+    {
+      "author_id": "author_16",
+      "display_name": "研究员16"
+    },
+    {
+      "author_id": "author_17",
+      "display_name": "研究员17"
+    },
+    {
+      "author_id": "author_18",
+      "display_name": "研究员18"
+    },
+    {
+      "author_id": "author_19",
+      "display_name": "研究员19"
+    },
+    {
+      "author_id": "author_20",
+      "display_name": "研究员20"
+    },
+    {
+      "author_id": "author_21",
+      "display_name": "研究员21"
+    },
+    {
+      "author_id": "author_22",
+      "display_name": "研究员22"
+    },
+    {
+      "author_id": "author_23",
+      "display_name": "研究员23"
+    },
+    {
+      "author_id": "author_24",
+      "display_name": "研究员24"
+    },
+    {
+      "author_id": "author_25",
+      "display_name": "研究员25"
+    },
+    {
+      "author_id": "author_26",
+      "display_name": "研究员26"
+    },
+    {
+      "author_id": "author_27",
+      "display_name": "研究员27"
+    },
+    {
+      "author_id": "author_28",
+      "display_name": "研究员28"
+    },
+    {
+      "author_id": "author_29",
+      "display_name": "研究员29"
+    },
+    {
+      "author_id": "author_30",
+      "display_name": "研究员30"
+    },
+    {
+      "author_id": "author_31",
+      "display_name": "研究员31"
+    },
+    {
+      "author_id": "author_32",
+      "display_name": "研究员32"
+    },
+    {
+      "author_id": "author_33",
+      "display_name": "研究员33"
+    },
+    {
+      "author_id": "author_34",
+      "display_name": "研究员34"
+    },
+    {
+      "author_id": "author_35",
+      "display_name": "研究员35"
+    },
+    {
+      "author_id": "author_36",
+      "display_name": "研究员36"
+    },
+    {
+      "author_id": "author_37",
+      "display_name": "研究员37"
+    },
+    {
+      "author_id": "author_38",
+      "display_name": "研究员38"
+    },
+    {
+      "author_id": "author_39",
+      "display_name": "研究员39"
+    }
+  ],
+  "affiliations": [
+    {
+      "author_id": "author_00",
+      "institution": "school_0",
+      "start": 2023,
+      "end": 2024
+    },
+    {
+      "author_id": "author_01",
+      "institution": "school_0",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_02",
+      "institution": "school_0",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_03",
+      "institution": "school_0",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_04",
+      "institution": "school_0",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_05",
+      "institution": "school_0",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_06",
+      "institution": "school_0",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_07",
+      "institution": "school_0",
+      "start": 2023,
+      "end": 2024
+    },
+    {
+      "author_id": "author_08",
+      "institution": "school_0",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_09",
+      "institution": "school_0",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_10",
+      "institution": "school_1",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_11",
+      "institution": "school_1",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_12",
+      "institution": "school_1",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_13",
+      "institution": "school_1",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_14",
+      "institution": "school_1",
+      "start": 2023,
+      "end": 2024
+    },
+    {
+      "author_id": "author_15",
+      "institution": "school_1",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_16",
+      "institution": "school_1",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_17",
+      "institution": "school_1",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_18",
+      "institution": "school_1",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_19",
+      "institution": "school_1",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_20",
+      "institution": "school_2",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_21",
+      "institution": "school_2",
+      "start": 2023,
+      "end": 2024
+    },
+    {
+      "author_id": "author_22",
+      "institution": "school_2",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_23",
+      "institution": "school_2",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_24",
+      "institution": "school_2",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_25",
+      "institution": "school_2",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_26",
+      "institution": "school_2",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_27",
+      "institution": "school_2",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_28",
+      "institution": "school_2",
+      "start": 2023,
+      "end": 2024
+    },
+    {
+      "author_id": "author_29",
+      "institution": "school_2",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_30",
+      "institution": "school_3",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_31",
+      "institution": "school_3",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_32",
+      "institution": "school_3",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_33",
+      "institution": "school_3",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_34",
+      "institution": "school_3",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_35",
+      "institution": "school_3",
+      "start": 2023,
+      "end": 2024
+    },
+    {
+      "author_id": "author_36",
+      "institution": "school_3",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_37",
+      "institution": "school_3",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_38",
+      "institution": "school_3",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_39",
+      "institution": "school_3",
+      "start": 2023,
+      "end": 2026
+    },
+    {
+      "author_id": "author_00",
+      "institution": "school_new",
+      "start": 2025,
+      "end": 2026
+    },
+    {
+      "author_id": "author_07",
+      "institution": "school_new",
+      "start": 2025,
+      "end": 2026
+    },
+    {
+      "author_id": "author_14",
+      "institution": "school_new",
+      "start": 2025,
+      "end": 2026
+    },
+    {
+      "author_id": "author_21",
+      "institution": "school_new",
+      "start": 2025,
+      "end": 2026
+    },
+    {
+      "author_id": "author_28",
+      "institution": "school_new",
+      "start": 2025,
+      "end": 2026
+    },
+    {
+      "author_id": "author_35",
+      "institution": "school_new",
+      "start": 2025,
+      "end": 2026
+    }
+  ],
+  "works": [
+    {
+      "work_id": "work_2023_0",
+      "year": 2023,
+      "author_ids": [
+        "author_04",
+        "author_09",
+        "author_28",
+        "author_35"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2023_1",
+      "year": 2023,
+      "author_ids": [
+        "author_14",
+        "author_17",
+        "author_19"
+      ],
+      "roles": {
+        "author_17": "lead"
+      }
+    },
+    {
+      "work_id": "work_2023_2",
+      "year": 2023,
+      "author_ids": [
+        "author_23",
+        "author_24",
+        "author_27",
+        "author_28"
+      ],
+      "roles": {
+        "author_28": "lead"
+      }
+    },
+    {
+      "work_id": "work_2023_3",
+      "year": 2023,
+      "author_ids": [
+        "author_31",
+        "author_34",
+        "author_35",
+        "author_37",
+        "author_39"
+      ],
+      "roles": {
+        "author_39": "lead"
+      }
+    },
+    {
+      "work_id": "work_2023_4",
+      "year": 2023,
+      "author_ids": [
+        "author_06",
+        "author_09"
+      ],
+      "roles": {
+        "author_09": "lead"
+      }
+    },
+    {
+      "work_id": "work_2023_5",
+      "year": 2023,
+      "author_ids": [
+        "author_14",
+        "author_15",
+        "author_18"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2023_6",
+      "year": 2023,
+      "author_ids": [
+        "author_21",
+        "author_22",
+        "author_26",
+        "author_28"
+      ],
+      "roles": {
+        "author_26": "lead"
+      }
+    },
+    {
+      "work_id": "work_2023_7",
+      "year": 2023,
+      "author_ids": [
+        "author_01",
+        "author_19",
+        "author_30",
+        "author_31",
+        "author_33",
+        "author_34",
+        "author_38"
+      ],
+      "roles": {
+        "author_38": "lead"
+      }
+    },
+    {
+      "work_id": "work_2023_8",
+      "year": 2023,
+      "author_ids": [
+        "author_02",
+        "author_09"
+      ],
+      "roles": {
+        "author_09": "lead"
+      }
+    },
+    {
+      "work_id": "work_2023_9",
+      "year": 2023,
+      "author_ids": [
+        "author_10",
+        "author_15",
+        "author_19"
+      ],
+      "roles": {
+        "author_15": "lead"
+      }
+    },
+    {
+      "work_id": "work_2023_10",
+      "year": 2023,
+      "author_ids": [
+        "author_20",
+        "author_25",
+        "author_27",
+        "author_28"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2023_11",
+      "year": 2023,
+      "author_ids": [
+        "author_30",
+        "author_33",
+        "author_34",
+        "author_35",
+        "author_37"
+      ],
+      "roles": {
+        "author_30": "lead"
+      }
+    },
+    {
+      "work_id": "work_2023_12",
+      "year": 2023,
+      "author_ids": [
+        "author_03",
+        "author_06"
+      ],
+      "roles": {
+        "author_03": "lead"
+      }
+    },
+    {
+      "work_id": "work_2023_13",
+      "year": 2023,
+      "author_ids": [
+        "author_10",
+        "author_11",
+        "author_18"
+      ],
+      "roles": {
+        "author_10": "lead"
+      }
+    },
+    {
+      "work_id": "work_2023_14",
+      "year": 2023,
+      "author_ids": [
+        "author_12",
+        "author_18",
+        "author_21",
+        "author_26",
+        "author_28",
+        "author_29"
+      ],
+      "roles": {
+        "author_21": "lead"
+      }
+    },
+    {
+      "work_id": "work_2023_15",
+      "year": 2023,
+      "author_ids": [
+        "author_30",
+        "author_32",
+        "author_33",
+        "author_34",
+        "author_35"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2023_16",
+      "year": 2023,
+      "author_ids": [
+        "author_06",
+        "author_07"
+      ],
+      "roles": {
+        "author_07": "lead"
+      }
+    },
+    {
+      "work_id": "work_2023_17",
+      "year": 2023,
+      "author_ids": [
+        "author_17",
+        "author_18",
+        "author_19"
+      ],
+      "roles": {
+        "author_19": "lead"
+      }
+    },
+    {
+      "work_id": "work_2023_18",
+      "year": 2023,
+      "author_ids": [
+        "author_20",
+        "author_23",
+        "author_24",
+        "author_26"
+      ],
+      "roles": {
+        "author_23": "lead"
+      }
+    },
+    {
+      "work_id": "work_2023_19",
+      "year": 2023,
+      "author_ids": [
+        "author_30",
+        "author_33",
+        "author_35",
+        "author_36",
+        "author_37"
+      ],
+      "roles": {
+        "author_36": "lead"
+      }
+    },
+    {
+      "work_id": "work_2023_20",
+      "year": 2023,
+      "author_ids": [
+        "author_00",
+        "author_02"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2023_21",
+      "year": 2023,
+      "author_ids": [
+        "author_11",
+        "author_16",
+        "author_18",
+        "author_19",
+        "author_36"
+      ],
+      "roles": {
+        "author_16": "lead"
+      }
+    },
+    {
+      "work_id": "work_2023_22",
+      "year": 2023,
+      "author_ids": [
+        "author_21",
+        "author_22",
+        "author_23",
+        "author_27"
+      ],
+      "roles": {
+        "author_27": "lead"
+      }
+    },
+    {
+      "work_id": "work_2023_23",
+      "year": 2023,
+      "author_ids": [
+        "author_00",
+        "author_01",
+        "author_02",
+        "author_03",
+        "author_04",
+        "author_05",
+        "author_06",
+        "author_07",
+        "author_08",
+        "author_09",
+        "author_10",
+        "author_11",
+        "author_12",
+        "author_13",
+        "author_14",
+        "author_15",
+        "author_16",
+        "author_17",
+        "author_18",
+        "author_19",
+        "author_20",
+        "author_21",
+        "author_22",
+        "author_23",
+        "author_24",
+        "author_25",
+        "author_26",
+        "author_27",
+        "author_28",
+        "author_29",
+        "author_30",
+        "author_31",
+        "author_32",
+        "author_33",
+        "author_34",
+        "author_35",
+        "author_36",
+        "author_37",
+        "author_38",
+        "author_39"
+      ],
+      "roles": {
+        "author_00": "lead"
+      }
+    },
+    {
+      "work_id": "work_2024_0",
+      "year": 2024,
+      "author_ids": [
+        "author_02",
+        "author_06",
+        "author_08",
+        "author_20"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2024_1",
+      "year": 2024,
+      "author_ids": [
+        "author_12",
+        "author_13",
+        "author_18"
+      ],
+      "roles": {
+        "author_13": "lead"
+      }
+    },
+    {
+      "work_id": "work_2024_2",
+      "year": 2024,
+      "author_ids": [
+        "author_21",
+        "author_22",
+        "author_24",
+        "author_27"
+      ],
+      "roles": {
+        "author_21": "lead"
+      }
+    },
+    {
+      "work_id": "work_2024_3",
+      "year": 2024,
+      "author_ids": [
+        "author_30",
+        "author_32",
+        "author_33",
+        "author_35",
+        "author_36"
+      ],
+      "roles": {
+        "author_30": "lead"
+      }
+    },
+    {
+      "work_id": "work_2024_4",
+      "year": 2024,
+      "author_ids": [
+        "author_02",
+        "author_07"
+      ],
+      "roles": {
+        "author_07": "lead"
+      }
+    },
+    {
+      "work_id": "work_2024_5",
+      "year": 2024,
+      "author_ids": [
+        "author_12",
+        "author_16",
+        "author_19"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2024_6",
+      "year": 2024,
+      "author_ids": [
+        "author_22",
+        "author_24",
+        "author_26",
+        "author_27"
+      ],
+      "roles": {
+        "author_27": "lead"
+      }
+    },
+    {
+      "work_id": "work_2024_7",
+      "year": 2024,
+      "author_ids": [
+        "author_11",
+        "author_14",
+        "author_30",
+        "author_34",
+        "author_35",
+        "author_36",
+        "author_38"
+      ],
+      "roles": {
+        "author_30": "lead"
+      }
+    },
+    {
+      "work_id": "work_2024_8",
+      "year": 2024,
+      "author_ids": [
+        "author_00",
+        "author_05"
+      ],
+      "roles": {
+        "author_05": "lead"
+      }
+    },
+    {
+      "work_id": "work_2024_9",
+      "year": 2024,
+      "author_ids": [
+        "author_12",
+        "author_17",
+        "author_19"
+      ],
+      "roles": {
+        "author_17": "lead"
+      }
+    },
+    {
+      "work_id": "work_2024_10",
+      "year": 2024,
+      "author_ids": [
+        "author_20",
+        "author_21",
+        "author_26",
+        "author_27"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2024_11",
+      "year": 2024,
+      "author_ids": [
+        "author_31",
+        "author_34",
+        "author_35",
+        "author_38",
+        "author_39"
+      ],
+      "roles": {
+        "author_38": "lead"
+      }
+    },
+    {
+      "work_id": "work_2024_12",
+      "year": 2024,
+      "author_ids": [
+        "author_05",
+        "author_07"
+      ],
+      "roles": {
+        "author_05": "lead"
+      }
+    },
+    {
+      "work_id": "work_2024_13",
+      "year": 2024,
+      "author_ids": [
+        "author_10",
+        "author_13",
+        "author_19"
+      ],
+      "roles": {
+        "author_10": "lead"
+      }
+    },
+    {
+      "work_id": "work_2024_14",
+      "year": 2024,
+      "author_ids": [
+        "author_08",
+        "author_21",
+        "author_25",
+        "author_26",
+        "author_28",
+        "author_35"
+      ],
+      "roles": {
+        "author_26": "lead"
+      }
+    },
+    {
+      "work_id": "work_2024_15",
+      "year": 2024,
+      "author_ids": [
+        "author_32",
+        "author_33",
+        "author_36",
+        "author_37",
+        "author_39"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2024_16",
+      "year": 2024,
+      "author_ids": [
+        "author_02",
+        "author_08"
+      ],
+      "roles": {
+        "author_08": "lead"
+      }
+    },
+    {
+      "work_id": "work_2024_17",
+      "year": 2024,
+      "author_ids": [
+        "author_11",
+        "author_12",
+        "author_16"
+      ],
+      "roles": {
+        "author_11": "lead"
+      }
+    },
+    {
+      "work_id": "work_2024_18",
+      "year": 2024,
+      "author_ids": [
+        "author_23",
+        "author_25",
+        "author_26",
+        "author_29"
+      ],
+      "roles": {
+        "author_29": "lead"
+      }
+    },
+    {
+      "work_id": "work_2024_19",
+      "year": 2024,
+      "author_ids": [
+        "author_30",
+        "author_31",
+        "author_32",
+        "author_37",
+        "author_39"
+      ],
+      "roles": {
+        "author_31": "lead"
+      }
+    },
+    {
+      "work_id": "work_2024_20",
+      "year": 2024,
+      "author_ids": [
+        "author_05",
+        "author_08"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2024_21",
+      "year": 2024,
+      "author_ids": [
+        "author_03",
+        "author_14",
+        "author_17",
+        "author_18",
+        "author_19"
+      ],
+      "roles": {
+        "author_14": "lead"
+      }
+    },
+    {
+      "work_id": "work_2024_22",
+      "year": 2024,
+      "author_ids": [
+        "author_21",
+        "author_22",
+        "author_26",
+        "author_27"
+      ],
+      "roles": {
+        "author_21": "lead"
+      }
+    },
+    {
+      "work_id": "work_2024_23",
+      "year": 2024,
+      "author_ids": [
+        "author_00",
+        "author_01",
+        "author_02",
+        "author_03",
+        "author_04",
+        "author_05",
+        "author_06",
+        "author_07",
+        "author_08",
+        "author_09",
+        "author_10",
+        "author_11",
+        "author_12",
+        "author_13",
+        "author_14",
+        "author_15",
+        "author_16",
+        "author_17",
+        "author_18",
+        "author_19",
+        "author_20",
+        "author_21",
+        "author_22",
+        "author_23",
+        "author_24",
+        "author_25",
+        "author_26",
+        "author_27",
+        "author_28",
+        "author_29",
+        "author_30",
+        "author_31",
+        "author_32",
+        "author_33",
+        "author_34",
+        "author_35",
+        "author_36",
+        "author_37",
+        "author_38",
+        "author_39"
+      ],
+      "roles": {
+        "author_00": "lead"
+      }
+    },
+    {
+      "work_id": "work_2025_0",
+      "year": 2025,
+      "author_ids": [
+        "author_01",
+        "author_02",
+        "author_08",
+        "author_26"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2025_1",
+      "year": 2025,
+      "author_ids": [
+        "author_11",
+        "author_12",
+        "author_16"
+      ],
+      "roles": {
+        "author_11": "lead"
+      }
+    },
+    {
+      "work_id": "work_2025_2",
+      "year": 2025,
+      "author_ids": [
+        "author_24",
+        "author_25",
+        "author_26",
+        "author_29"
+      ],
+      "roles": {
+        "author_24": "lead"
+      }
+    },
+    {
+      "work_id": "work_2025_3",
+      "year": 2025,
+      "author_ids": [
+        "author_30",
+        "author_31",
+        "author_33",
+        "author_38",
+        "author_39"
+      ],
+      "roles": {
+        "author_30": "lead"
+      }
+    },
+    {
+      "work_id": "work_2025_4",
+      "year": 2025,
+      "author_ids": [
+        "author_05",
+        "author_09"
+      ],
+      "roles": {
+        "author_09": "lead"
+      }
+    },
+    {
+      "work_id": "work_2025_5",
+      "year": 2025,
+      "author_ids": [
+        "author_11",
+        "author_16",
+        "author_19"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2025_6",
+      "year": 2025,
+      "author_ids": [
+        "author_21",
+        "author_23",
+        "author_25",
+        "author_26"
+      ],
+      "roles": {
+        "author_25": "lead"
+      }
+    },
+    {
+      "work_id": "work_2025_7",
+      "year": 2025,
+      "author_ids": [
+        "author_01",
+        "author_13",
+        "author_30",
+        "author_31",
+        "author_32",
+        "author_33",
+        "author_38"
+      ],
+      "roles": {
+        "author_33": "lead"
+      }
+    },
+    {
+      "work_id": "work_2025_8",
+      "year": 2025,
+      "author_ids": [
+        "author_03",
+        "author_08"
+      ],
+      "roles": {
+        "author_08": "lead"
+      }
+    },
+    {
+      "work_id": "work_2025_9",
+      "year": 2025,
+      "author_ids": [
+        "author_12",
+        "author_13",
+        "author_14"
+      ],
+      "roles": {
+        "author_14": "lead"
+      }
+    },
+    {
+      "work_id": "work_2025_10",
+      "year": 2025,
+      "author_ids": [
+        "author_20",
+        "author_21",
+        "author_23",
+        "author_25"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2025_11",
+      "year": 2025,
+      "author_ids": [
+        "author_32",
+        "author_34",
+        "author_35",
+        "author_36",
+        "author_37"
+      ],
+      "roles": {
+        "author_37": "lead"
+      }
+    },
+    {
+      "work_id": "work_2025_12",
+      "year": 2025,
+      "author_ids": [
+        "author_06",
+        "author_09"
+      ],
+      "roles": {
+        "author_09": "lead"
+      }
+    },
+    {
+      "work_id": "work_2025_13",
+      "year": 2025,
+      "author_ids": [
+        "author_10",
+        "author_15",
+        "author_18"
+      ],
+      "roles": {
+        "author_15": "lead"
+      }
+    },
+    {
+      "work_id": "work_2025_14",
+      "year": 2025,
+      "author_ids": [
+        "author_00",
+        "author_22",
+        "author_23",
+        "author_27",
+        "author_28",
+        "author_37"
+      ],
+      "roles": {
+        "author_22": "lead"
+      }
+    },
+    {
+      "work_id": "work_2025_15",
+      "year": 2025,
+      "author_ids": [
+        "author_33",
+        "author_34",
+        "author_35",
+        "author_37",
+        "author_38"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2025_16",
+      "year": 2025,
+      "author_ids": [
+        "author_02",
+        "author_08"
+      ],
+      "roles": {
+        "author_02": "lead"
+      }
+    },
+    {
+      "work_id": "work_2025_17",
+      "year": 2025,
+      "author_ids": [
+        "author_15",
+        "author_16",
+        "author_18"
+      ],
+      "roles": {
+        "author_18": "lead"
+      }
+    },
+    {
+      "work_id": "work_2025_18",
+      "year": 2025,
+      "author_ids": [
+        "author_20",
+        "author_24",
+        "author_27",
+        "author_28"
+      ],
+      "roles": {
+        "author_27": "lead"
+      }
+    },
+    {
+      "work_id": "work_2025_19",
+      "year": 2025,
+      "author_ids": [
+        "author_31",
+        "author_34",
+        "author_36",
+        "author_37",
+        "author_38"
+      ],
+      "roles": {
+        "author_31": "lead"
+      }
+    },
+    {
+      "work_id": "work_2025_20",
+      "year": 2025,
+      "author_ids": [
+        "author_03",
+        "author_05"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2025_21",
+      "year": 2025,
+      "author_ids": [
+        "author_06",
+        "author_12",
+        "author_15",
+        "author_17",
+        "author_18"
+      ],
+      "roles": {
+        "author_18": "lead"
+      }
+    },
+    {
+      "work_id": "work_2025_22",
+      "year": 2025,
+      "author_ids": [
+        "author_20",
+        "author_21",
+        "author_22",
+        "author_27"
+      ],
+      "roles": {
+        "author_21": "lead"
+      }
+    },
+    {
+      "work_id": "work_2025_23",
+      "year": 2025,
+      "author_ids": [
+        "author_00",
+        "author_01",
+        "author_02",
+        "author_03",
+        "author_04",
+        "author_05",
+        "author_06",
+        "author_07",
+        "author_08",
+        "author_09",
+        "author_10",
+        "author_11",
+        "author_12",
+        "author_13",
+        "author_14",
+        "author_15",
+        "author_16",
+        "author_17",
+        "author_18",
+        "author_19",
+        "author_20",
+        "author_21",
+        "author_22",
+        "author_23",
+        "author_24",
+        "author_25",
+        "author_26",
+        "author_27",
+        "author_28",
+        "author_29",
+        "author_30",
+        "author_31",
+        "author_32",
+        "author_33",
+        "author_34",
+        "author_35",
+        "author_36",
+        "author_37",
+        "author_38",
+        "author_39"
+      ],
+      "roles": {
+        "author_00": "lead"
+      }
+    },
+    {
+      "work_id": "work_2026_0",
+      "year": 2026,
+      "author_ids": [
+        "author_00",
+        "author_01",
+        "author_14",
+        "author_15"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2026_1",
+      "year": 2026,
+      "author_ids": [
+        "author_11",
+        "author_12",
+        "author_13"
+      ],
+      "roles": {
+        "author_13": "lead"
+      }
+    },
+    {
+      "work_id": "work_2026_2",
+      "year": 2026,
+      "author_ids": [
+        "author_22",
+        "author_23",
+        "author_25",
+        "author_29"
+      ],
+      "roles": {
+        "author_23": "lead"
+      }
+    },
+    {
+      "work_id": "work_2026_3",
+      "year": 2026,
+      "author_ids": [
+        "author_30",
+        "author_31",
+        "author_35",
+        "author_37",
+        "author_38"
+      ],
+      "roles": {
+        "author_35": "lead"
+      }
+    },
+    {
+      "work_id": "work_2026_4",
+      "year": 2026,
+      "author_ids": [
+        "author_01",
+        "author_08"
+      ],
+      "roles": {
+        "author_01": "lead"
+      }
+    },
+    {
+      "work_id": "work_2026_5",
+      "year": 2026,
+      "author_ids": [
+        "author_10",
+        "author_11",
+        "author_12"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2026_6",
+      "year": 2026,
+      "author_ids": [
+        "author_21",
+        "author_24",
+        "author_26",
+        "author_27"
+      ],
+      "roles": {
+        "author_26": "lead"
+      }
+    },
+    {
+      "work_id": "work_2026_7",
+      "year": 2026,
+      "author_ids": [
+        "author_02",
+        "author_30",
+        "author_32",
+        "author_34",
+        "author_35",
+        "author_36",
+        "author_37"
+      ],
+      "roles": {
+        "author_37": "lead"
+      }
+    },
+    {
+      "work_id": "work_2026_8",
+      "year": 2026,
+      "author_ids": [
+        "author_02",
+        "author_04"
+      ],
+      "roles": {
+        "author_02": "lead"
+      }
+    },
+    {
+      "work_id": "work_2026_9",
+      "year": 2026,
+      "author_ids": [
+        "author_12",
+        "author_14",
+        "author_16"
+      ],
+      "roles": {
+        "author_12": "lead"
+      }
+    },
+    {
+      "work_id": "work_2026_10",
+      "year": 2026,
+      "author_ids": [
+        "author_25",
+        "author_26",
+        "author_27",
+        "author_29"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2026_11",
+      "year": 2026,
+      "author_ids": [
+        "author_31",
+        "author_32",
+        "author_35",
+        "author_36",
+        "author_37"
+      ],
+      "roles": {
+        "author_36": "lead"
+      }
+    },
+    {
+      "work_id": "work_2026_12",
+      "year": 2026,
+      "author_ids": [
+        "author_02",
+        "author_06"
+      ],
+      "roles": {
+        "author_06": "lead"
+      }
+    },
+    {
+      "work_id": "work_2026_13",
+      "year": 2026,
+      "author_ids": [
+        "author_13",
+        "author_16",
+        "author_18"
+      ],
+      "roles": {
+        "author_16": "lead"
+      }
+    },
+    {
+      "work_id": "work_2026_14",
+      "year": 2026,
+      "author_ids": [
+        "author_20",
+        "author_22",
+        "author_25",
+        "author_28",
+        "author_29",
+        "author_31"
+      ],
+      "roles": {
+        "author_25": "lead"
+      }
+    },
+    {
+      "work_id": "work_2026_15",
+      "year": 2026,
+      "author_ids": [
+        "author_30",
+        "author_32",
+        "author_34",
+        "author_37",
+        "author_39"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2026_16",
+      "year": 2026,
+      "author_ids": [
+        "author_00",
+        "author_04"
+      ],
+      "roles": {
+        "author_00": "lead"
+      }
+    },
+    {
+      "work_id": "work_2026_17",
+      "year": 2026,
+      "author_ids": [
+        "author_15",
+        "author_16",
+        "author_18"
+      ],
+      "roles": {
+        "author_16": "lead"
+      }
+    },
+    {
+      "work_id": "work_2026_18",
+      "year": 2026,
+      "author_ids": [
+        "author_21",
+        "author_24",
+        "author_26",
+        "author_28"
+      ],
+      "roles": {
+        "author_21": "lead"
+      }
+    },
+    {
+      "work_id": "work_2026_19",
+      "year": 2026,
+      "author_ids": [
+        "author_30",
+        "author_31",
+        "author_34",
+        "author_37",
+        "author_39"
+      ],
+      "roles": {
+        "author_37": "lead"
+      }
+    },
+    {
+      "work_id": "work_2026_20",
+      "year": 2026,
+      "author_ids": [
+        "author_02",
+        "author_05"
+      ],
+      "roles": {}
+    },
+    {
+      "work_id": "work_2026_21",
+      "year": 2026,
+      "author_ids": [
+        "author_12",
+        "author_16",
+        "author_18",
+        "author_21",
+        "author_38"
+      ],
+      "roles": {
+        "author_12": "lead"
+      }
+    },
+    {
+      "work_id": "work_2026_22",
+      "year": 2026,
+      "author_ids": [
+        "author_20",
+        "author_23",
+        "author_24",
+        "author_28"
+      ],
+      "roles": {
+        "author_24": "lead"
+      }
+    },
+    {
+      "work_id": "work_2026_23",
+      "year": 2026,
+      "author_ids": [
+        "author_00",
+        "author_01",
+        "author_02",
+        "author_03",
+        "author_04",
+        "author_05",
+        "author_06",
+        "author_07",
+        "author_08",
+        "author_09",
+        "author_10",
+        "author_11",
+        "author_12",
+        "author_13",
+        "author_14",
+        "author_15",
+        "author_16",
+        "author_17",
+        "author_18",
+        "author_19",
+        "author_20",
+        "author_21",
+        "author_22",
+        "author_23",
+        "author_24",
+        "author_25",
+        "author_26",
+        "author_27",
+        "author_28",
+        "author_29",
+        "author_30",
+        "author_31",
+        "author_32",
+        "author_33",
+        "author_34",
+        "author_35",
+        "author_36",
+        "author_37",
+        "author_38",
+        "author_39"
+      ],
+      "roles": {
+        "author_00": "lead"
+      }
+    }
+  ]
+}

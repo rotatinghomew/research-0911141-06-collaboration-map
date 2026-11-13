@@ -1,0 +1,6 @@
+[project]
+name = "collaboration-map"
+version = "0.3.0"
+description = "教研协作关系地图"
+requires-python = ">=3.11"
+dependencies = []
