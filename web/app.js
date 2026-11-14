@@ -90,6 +90,64 @@ function drawChart(series) {
   context.fillText(scatter ? '沿用方法均值 → 候选方法均值（原始定量配对）' : '按表中顺序展示描述值；缺测不绘制为零', 50, 20);
 }
 
+function drawTrends(trends, xlabels) {
+  const canvas = element('chart');
+  const context = canvas.getContext('2d');
+  context.clearRect(0, 0, canvas.width, canvas.height);
+  context.font = '12px sans-serif';
+  const palette = ['#0a7168', '#c2571a', '#4a6fa5', '#8b4a8b', '#b03a2e', '#5b7f2b'];
+  const all = [];
+  for (const series of trends) for (const value of series.values) {
+    if (typeof value === 'number' && Number.isFinite(value)) all.push(value);
+  }
+  if (!all.length) { context.fillText('该范围没有可定量的描述值', 30, 50); return; }
+  const low = Math.min(0, ...all);
+  const high = Math.max(1, ...all);
+  const scale = value => 250 - (value - low) / (high - low || 1) * 210;
+  const count = Math.max(...trends.map(series => series.values.length), 1);
+  const position = index => count === 1 ? 490 : 60 + index * 850 / (count - 1);
+  context.strokeStyle = '#90a5ad';
+  context.beginPath(); context.moveTo(45, 20); context.lineTo(45, 250); context.lineTo(940, 250); context.stroke();
+  trends.forEach((series, order) => {
+    const color = palette[order % palette.length];
+    context.strokeStyle = color; context.fillStyle = color;
+    context.beginPath();
+    let started = false;
+    series.values.forEach((value, index) => {
+      if (typeof value !== 'number' || !Number.isFinite(value)) { started = false; return; }
+      const x = position(index), y = scale(value);
+      if (started) context.lineTo(x, y); else { context.moveTo(x, y); started = true; }
+    });
+    context.stroke();
+    series.values.forEach((value, index) => {
+      if (typeof value !== 'number' || !Number.isFinite(value)) return;
+      context.beginPath(); context.arc(position(index), scale(value), 3, 0, Math.PI * 2); context.fill();
+    });
+    const legendX = 610 + (order % 2) * 165, legendY = 10 + Math.floor(order / 2) * 16;
+    context.fillRect(legendX, legendY - 8, 10, 10);
+    context.fillText(series.label, legendX + 14, legendY);
+  });
+  context.fillStyle = '#29434e';
+  context.fillText(high.toFixed(2), 0, 45); context.fillText(low.toFixed(2), 0, 250);
+  if (xlabels.length <= 8) xlabels.forEach((label, index) => context.fillText(label, position(index) - 14, 268));
+  context.fillText('计数类为首窗=100的指数；占比类为百分值', 50, 20);
+}
+
+function fillTable(head, body, rows) {
+  const fields = rows.length ? Object.keys(rows[0]).filter(field => !field.startsWith('_')) : [];
+  const header = document.createElement('tr');
+  for (const field of fields) { const cell = document.createElement('th'); cell.textContent = field; header.append(cell); }
+  head.replaceChildren(header); body.replaceChildren();
+  for (const row of rows) {
+    const line = document.createElement('tr'); line.tabIndex = 0;
+    for (const field of fields) { const cell = document.createElement('td'); cell.textContent = displayValue(row[field]); line.append(cell); }
+    const detail = row._detail !== undefined ? row._detail : row;
+    line.onclick = () => { element('details').textContent = JSON.stringify(detail, null, 2); };
+    line.onkeydown = event => { if (event.key === 'Enter') line.click(); };
+    body.append(line);
+  }
+}
+
 function render(result, heading) {
   state.current = result;
   element('summary').replaceChildren();
@@ -103,21 +161,22 @@ function render(result, heading) {
   for (const note of result.view.notes) {
     const paragraph = document.createElement('p'); paragraph.textContent = note; element('notes').append(paragraph);
   }
-  const rows = result.view.rows;
-  const fields = rows.length ? Object.keys(rows[0]) : [];
-  const header = document.createElement('tr');
-  for (const field of fields) { const cell = document.createElement('th'); cell.textContent = field; header.append(cell); }
-  element('columns').replaceChildren(header); element('rows').replaceChildren();
-  for (const row of rows) {
-    const line = document.createElement('tr'); line.tabIndex = 0;
-    for (const field of fields) { const cell = document.createElement('td'); cell.textContent = displayValue(row[field]); line.append(cell); }
-    line.onclick = () => { element('details').textContent = JSON.stringify(row, null, 2); };
-    line.onkeydown = event => { if (event.key === 'Enter') line.click(); };
-    element('rows').append(line);
+  element('view-heading').textContent = result.view.heading || '按作品展开的协作网络';
+  fillTable(element('columns'), element('rows'), result.view.rows || []);
+  element('extra-tables').replaceChildren();
+  for (const table of result.view.tables || []) {
+    const title = document.createElement('h3'); title.textContent = table.title;
+    const wrap = document.createElement('div'); wrap.className = 'table-wrap';
+    const grid = document.createElement('table');
+    const head = document.createElement('thead'), body = document.createElement('tbody');
+    grid.append(head, body); wrap.append(grid);
+    fillTable(head, body, table.rows || []);
+    element('extra-tables').append(title, wrap);
   }
-  drawChart(result.view.series);
+  if (result.view.trends) drawTrends(result.view.trends, result.view.xlabels || []);
+  else drawChart(result.view.series || []);
   element('details').textContent = JSON.stringify({revision: result.revision, selection: result.selection,
-    history: result.view.history || null}, null, 2);
+    definitions: result.view.definitions || null, history: result.view.history || null}, null, 2);
   message((heading || '已更新描述') + ' · 数据 ' + result.revision.slice(0, 12));
 }
 

@@ -2,6 +2,7 @@ from collections import Counter, defaultdict
 from statistics import mean, median
 import math
 
+from .structure import compare
 from .validation import require_tables, unique, finite, references
 
 
@@ -23,6 +24,11 @@ def validate(data):
 
 
 def explore(data, selection):
+    view = str(selection.get("view", "年度名单")) if isinstance(selection, dict) else "年度名单"
+    if view == "结构对比":
+        return compare(data, selection)
+    if view != "年度名单":
+        raise ValueError("未知分析视图：" + view)
     try:
         year = int(selection.get("year", "2025"))
     except (ValueError, TypeError):
